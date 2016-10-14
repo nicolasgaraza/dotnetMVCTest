@@ -1,0 +1,8 @@
+ version: '2'
+ services:
+   web:
+     build: .
+     image: myfirstapp:0.1
+     container_name: myFirstAppWithCompose
+     ports:
+      - "80:5000"
